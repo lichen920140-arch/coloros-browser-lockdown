@@ -216,19 +216,7 @@ am force-stop com.heytap.browser
 | 包名                         | 角色             | 备注                                                                          |
 | -------------------------- | -------------- | --------------------------------------------------------------------------- |
 | `com.opos.ads`             | 系统广告总闸         | 大量 exported 组件；`disable-user` 同样失效，用 `suspend`                              |
-| `com.oplus.statistics.rom` | **DCC 数据捐献中心** | 托管 `DonateContentProvider` 等 12 个 Provider，是短信捐献链的落库端；单记录，`disable-user` 可用 |
-| `com.heytap.browser`       | 本文对象           | —                                                                           |
 
-**B 档（中风险，有功能损失）**
-
-| 包名                               | 损失                           |
-| -------------------------------- | ---------------------------- |
-| `com.heytap.quicksearchbox`      | 全局搜索；内含读短信/上传的 `SmsLoader` 链 |
-| `com.coloros.sceneservice`       | 负一屏 / 场景推荐                   |
-| `com.oplus.deepthinker`          | 应用预加载（可能影响冷启动速度）             |
-| `com.coloros.remoteguardservice` | 家人守护                         |
-
-**不要动（C 档）**：`com.coloros.phonemanager`、`com.oplus.dmp`、`com.oplus.ota`、`com.coloros.findmyphone`、`com.oplus.beaconlink`、`com.oplus.encryption`、`com.coloros.backuprestore`。
 
 ### 5.5 停止条件（命中任一条就别做）
 
