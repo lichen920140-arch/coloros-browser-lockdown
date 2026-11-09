@@ -1,0 +1,21 @@
+# 原始日志与取证产物（可能含序列号、IP、时间线）
+*.log
+*.txt
+*.apk
+*.apk.idsig
+*.obb
+*.db
+*.xml
+
+# 截图：状态栏与"关于手机"页极易带出序列号
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# 本机与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
